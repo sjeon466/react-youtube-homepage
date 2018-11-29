@@ -1,5 +1,5 @@
 import { fade } from "@material-ui/core/styles/colorManipulator";
-export function toolBarStyles(theme) {
+export function navBarStyles(theme) {
   return {
     root: {
       width: "100%"
