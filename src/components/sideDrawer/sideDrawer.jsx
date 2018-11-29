@@ -1,5 +1,6 @@
 import React from "react";
 import "./sideDrawer.css";
+import ListGroup from "../common/listGroup";
 
 const SideDrawer = props => {
   let drawerClasses = "side-drawer";
@@ -8,14 +9,7 @@ const SideDrawer = props => {
   }
   return (
     <nav className={drawerClasses}>
-      <ul>
-        <li>
-          <a href="/">item 1</a>
-        </li>
-        <li>
-          <a href="/">item 1</a>
-        </li>
-      </ul>
+      <ListGroup />
     </nav>
   );
 };
