@@ -23,7 +23,6 @@ class App extends Component {
 
   render() {
     let backdrop;
-
     if (this.state.sideDrawerOpen) {
       backdrop = <Backdrop onBackDropClicked={this.handleBackDropClick} />;
     }
