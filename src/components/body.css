@@ -1,0 +1,6 @@
+.body {
+  color: blue;
+  background: grey;
+  display: flex;
+  flex: 1;
+}
